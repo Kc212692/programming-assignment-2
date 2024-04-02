@@ -70,9 +70,9 @@ def compute():
     dct['add']=[add[0],add[1]]
 
     b = datasets.make_blobs(n_samples=n_samples, random_state=seed)
-    #print(b[0].shape,b[1].shape)
+   
     dct['b']=[b[0],b[1]]
-    # break
+   
     """
    B. Write a function called fit_kmeans that takes dataset (before any processing on it), i.e., pair of (data, label) Numpy 
    arrays, and the number of clusters as arguments, and returns the predicted labels from k-means clustering. Use the 
@@ -84,7 +84,7 @@ def compute():
     dct = answers["1B: fit_kmeans"] = fit_kmeans
     results_from_fit=dct
     # (dct,num_of_clusters=5)
-    #print(dct)
+    
 
     """
     C.	Make a big figure (4 rows x 5 columns) of scatter plots 
