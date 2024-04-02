@@ -97,7 +97,7 @@ def compute():
     """
 
     # Answer type: string. Insert your explanation as a string.
-    answers["3F: rich get richer"] = "Yes,"
+    answers["3F: rich get richer"] = "Yes,Based on the graph alone, without any context or information about the underlying data, there's no direct way to connect it to the concept of "the rich get richer." However, if we were to draw a metaphorical comparison, we could interpret the two colors of the dendrogram's branches as representing two groups within a population"
 
     return answers
 
